@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1425539245 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\lifeproject\life_driver.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"life.h"
+
+1425521251 c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\lifeproject\life.h
+	<iostream>
+	<fstream>
+	<string>
+
+1425521252 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\lifeproject\life_a00643150.cpp
+	<iostream>
+	<fstream>
+	<unistd.h>
+	"life.h"
+
+1425516836 source:c:\users\jw1762\desktop\lifeproject\life_a00643150.cpp
+	<iostream>
+	<fstream>
+	<windows.h>
+	"life.h"
+
+1425507982 c:\users\jw1762\desktop\lifeproject\life.h
+	<iostream>
+	<fstream>
+	<string>
+
+1425516248 source:c:\users\jw1762\desktop\lifeproject\life_driver.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"life.h"
+

@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1424474824 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupodproject\tsupoddriver_a00643150.cpp
+	<iostream>
+	<iomanip>
+	"tsuPod.h"
+
+1424120010 c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupodproject\tsupod.h
+	<string>
+
+1424474100 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupodproject\tsupod_a00643150.cpp
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	"tsuPod.h"
+

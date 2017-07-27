@@ -1,0 +1,120 @@
+Test #1) Testing to see if the structure is properly initilized.
+
+Process:
+    initTsuPod();
+        for (int i = 0; i < NUM_SONGS; i++)
+        {
+            songs[i].artist = "";
+            songs[i].title = "";
+            songs[i].fileSize = 0;
+        }
+
+Expected result:
+    String and Artist blank at all positions.
+    fileSize at 0 for all positions.
+
+Test #2) Testing to see if songs are properly added to the structure.
+
+Process:
+    addSong (string newTitle, string newArtist, int size);
+
+        if (size > MEMORY_SIZE)
+        {
+            return -1;
+        }
+
+        if (newTitle == "" || newArtist == "")
+        {
+            return -2;
+        }
+
+        else
+        {
+        for (int k = 0; k < NUM_SONGS; k++)
+        {
+            if (songs[k].fileSize == 0)
+            {
+                songs[k].title = newTitle;
+                songs[k].artist = newArtist;
+                songs[k].fileSize = size;
+                return 0;
+            }
+        }
+
+Expected result:
+    returns a 0 if successful
+    returns -1 if not enough memory to add the song
+    returns -2 for any other error (such as a blank title or artist)
+
+Test #3) Test to check if songs are properly removed.
+
+Process:
+    removeSong(title)
+         for (int j = 0; j < NUM_SONGS; j++)
+         {
+            if (title == songs[j].title)
+            {
+                songs[j].title = "";
+                songs[j].artist = "";
+                songs[j].fileSize = 0;
+                cout << "Deleting " << title << "." << endl;
+                return 0;
+            }
+        }
+
+        for (int k = 0; k < NUM_SONGS; k++)
+        {
+            if (title != songs[k].title)
+            {
+                cout << "Failed to delete song!" << endl;
+                return -1;
+            }
+        }
+
+Expected result:
+    Return 0 on success.
+    Return -1 if unable to locate title.
+
+Test #4) Test to see if clearing the memory is successful.
+
+Process:
+    clearMemory();
+        for (int i = 0; i < NUM_SONGS; i++)
+        {
+            songs[i].artist = "";
+            songs[i].title = "";
+            songs[i].fileSize = 0;
+        }
+
+Expected result:
+    All structure variables are reset to blank and 0.
+
+Test #5) Testing for listing all songs.
+
+Process:
+    showSongList();
+        for (int i = 0; i < MAX_SONGS; i++)
+        {
+            if (songs[i].artist == "" || songs[i].title == "" || songs[i].fileSize == 0)
+                cout << "Slot " << i <<" - Empty." << endl;
+            else
+                cout << "Slot "<< i << " - " << songs[i].title << " - " << songs[i].artist << " - " << songs[i].fileSize << "MB" << endl;
+        }
+
+Expected Result:
+    "Slot 1 - Sail - AWOLNATION - 3MB"
+    "Slot 1 - Empty." (If empty)
+    etc.
+
+Test #6) Test to see if shuffle is functioning.
+
+Process:
+        shuffle();
+            int index1 = rand() % NUM_SONGS;
+            int index2 = rand() % NUM_SONGS;
+            Song temp = Song[index1];
+            songs[index1] = songs[index2];
+            songs[index2] = temp;
+
+Expected Result:
+    Songs should now be randomly placed throughout the struct array.

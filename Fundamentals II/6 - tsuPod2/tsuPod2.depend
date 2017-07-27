@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1428454909 source:c:\users\pavs inc\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\song.cpp
+	"Song.h"
+
+1428454909 c:\users\pavs inc\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\song.h
+	<cstring>
+	<sstream>
+
+1428455556 source:c:\users\pavs inc\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupod.cpp
+	"TsuPod.h"
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1428456180 c:\users\pavs inc\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupod.h
+	"Song.h"
+
+1428455483 source:c:\users\pavs inc\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupoddriver.cpp
+	<cstdlib>
+	<iostream>
+	"Song.h"
+	"TsuPod.h"
+
+1428264618 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupoddriver.cpp
+	<cstdlib>
+	<iostream>
+	"Song.h"
+	"TsuPod.h"
+
+1428265453 c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\song.h
+	<cstring>
+	<sstream>
+
+1428262230 c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupod.h
+	"Song.h"
+
+1428263893 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\song.cpp
+	"Song.h"
+
+1428264919 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\tsupod2\tsupod.cpp
+	"TsuPod.h"
+	<iostream>
+	<ctime>
+	<cstdlib>
+

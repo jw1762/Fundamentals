@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1427508522 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\grader2\driver.cpp
+	<iostream>
+	<iomanip>
+	<cstdio>
+	<stdlib.h>
+	"PageWriter.h"
+
+1427507244 c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\grader2\pagewriter.h
+	<cstring>
+	<fstream>
+	<sstream>
+
+1427508249 source:c:\users\turtle\dropbox\school papers and stuff\cs stuff\2308 fundamentals ii\grader2\pagewriter.cpp
+	"PageWriter.h"
+
